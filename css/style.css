@@ -1,0 +1,262 @@
+*, html {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+footer {
+    height: 100px;
+}
+
+.unity-div {
+    height: 0px;
+    z-index: 2;
+    
+}
+
+.unity-icon {
+    padding: 10px;
+    border: 1px solid white;
+    display: block;
+    margin-left: 600px;
+    margin-top: 30px;
+    height: 20px;
+    width: 120px;
+    position: absolute; 
+    z-index: 2;
+    list-style: none;
+    margin-left: 45%;
+    margin-right: 55%;
+}
+
+.nav-bar {
+    text-transform: uppercase;
+    background-color: transparent;
+    text-align: center;
+    height: 50px;
+    margin-top: 120px;
+    text-decoration: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+    position: absolute;
+    z-index: 2;
+}
+
+nav a {
+    margin-top: 0px;
+    margin-right: 13px;
+    margin-left: 13px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+  }
+
+nav ul li {
+    display: inline-block;
+    margin-right: 0px;
+    width: 9%;
+    height: 100%;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+/* .telephone-line {
+    color: red;
+    background-color:red;;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    float: right;
+    width: 0%;
+}  */
+
+.header-section {
+    z-index: 1;
+}
+
+.header-img {
+    height: 1500px;
+    text-transform: uppercase;  
+    position: relative;
+    z-index: 1; 
+}
+
+.title-section {
+    text-transform: uppercase;
+    background: transparent;
+    font-family: 'Helvetica Narrow', sans-serif;
+    font-weight: 100;
+    top: 420px;
+    position: absolute;
+    text-align: center;
+    height: 20px;
+}
+
+.header-title {
+    color: orange; 
+    background: transparent;  
+    font-size:35px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.header-subtitle {
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+
+.scroll-image {
+    height: 45px;
+    width: 45px;
+    margin-top: 120px;
+}
+
+.scroll-title {
+    height: 30px;
+    width: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: -55px;
+    color: white;
+    text-align: center;
+}
+
+.scroll-arrow {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    margin-top: 260px;
+    margin-left: -35px;
+    color: white;
+    text-align: center;
+    background: transparent;
+    background: orange;
+}
+
+.social-nav-bar {
+    right: -620px;
+    top: 210px;
+    position: absolute;
+    transform: rotate(-90deg);
+    font-family: 'Nanum Gothic', san-serif; 
+    font-size: 15px;
+    color: white;
+    background-color: transparent;
+    background: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.copyright {
+    margin-right: 100px;
+}
+
+.purple-section-icons {
+    position: absolute;
+    z-index: 2;
+    margin-top: -300px;
+    background: transparent;
+    margin-left: 20%;
+    height: 800px;
+    width: 970px;
+}
+
+.purple-section-title {
+    color: white;
+    font-size: 20px;
+    background: transparent;
+    position: absolute;
+    z-index: 2;
+    margin-left: 450px;
+    margin-top: 270px;
+    margin-bottom: 0px;
+}
+
+.purple-section-subtitle {
+    color: white;
+    font-size: 15px;
+    background: transparent;
+    position: absolute;
+    z-index: 2;
+    margin-left: 450px;
+    margin-top: 300px;
+    display: inline-block;
+}
+
+#purple-section-invites {
+    margin-bottom: 10px;
+}
+
+.purple-section-whitebox-title-container {
+    text-transform: uppercase;
+}
+
+.city-play-button {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: 2;
+    margin-left:40%;
+    margin-right: 50%;
+    margin-top: 25%;
+    padding: 10px;
+}
+
+.footer-background {
+    background-image: url("../images/prototype_0006s_0001_Rectangle-14-copy.png");
+    width: 100%;
+    height: 600px;
+    position: relative;
+    z-index: 1;
+    border: 2px solid red;
+}
+
+.footer-content-container {
+    position: absolute;
+    z-index: 2;
+    border: 1px solid green;
+}
+
+.footer-image-studygirl {
+    height: 200px;
+    width: 200px;
+    border: 1px solid violet;
+    margin-top: 13%;
+    margin-left: 15%;
+    position: absolute;
+}
+
+.footer-aboutus {
+    height: 20px;
+    width: 100px;
+    margin-top: 9%;
+    margin-left: 15%;
+    border: 1px solid yellowgreen;
+    position: absolute;
+}
+
