@@ -1110,7 +1110,7 @@ input[type='email']:focus, input[placeholder=''] {
     width: 200px;
     margin-top: 1px;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     border: 1px solid #808080;
     transition: box-shadow .3s;
     box-shadow: 0 0 5px #ffffff;  
@@ -1127,18 +1127,19 @@ input[type='email']:focus, input[placeholder=''] {
     margin: 10px;
     margin-top: 12px;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
 }
 
 .email-input-box2 {
     background: #212121;
-    color: whites;
+    color: #ffffff;
     height: 36px;
     width: 200px;
     margin-top: 1px;
     position: absolute;
-    z-index: 1;
+    z-index: 3;
     padding-left: 7px;
+    border: 1px solid #808080;
 }
 
 .subscribe-button-container {
