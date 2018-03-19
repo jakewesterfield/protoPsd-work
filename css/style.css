@@ -1082,13 +1082,14 @@ img.snowscape-background {
     margin-top: 195px;
 }
 
-.email-input-box {
+/* .email-input-box {
     height: 36px;
     width: 200px;
     margin-top: 1px;
     position: absolute;
     z-index: 1;
-}
+} */
+
 
 /* new input box for email */
 /* .email-input-box {
@@ -1102,11 +1103,7 @@ img.snowscape-background {
 input[type='email']:focus, input[placeholder=''] {
     text-align: left;
 }
-
-
 */
-
-
 
 .email-input-box:hover {
     height: 36px;
@@ -1131,6 +1128,17 @@ input[type='email']:focus, input[placeholder=''] {
     margin-top: 12px;
     position: absolute;
     z-index: 2;
+}
+
+.email-input-box2 {
+    background: #212121;
+    color: whites;
+    height: 36px;
+    width: 200px;
+    margin-top: 1px;
+    position: absolute;
+    z-index: 1;
+    padding-left: 7px;
 }
 
 .subscribe-button-container {
