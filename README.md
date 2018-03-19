@@ -4,6 +4,7 @@
 One Paragraph of project description goes here
 
 ## Getting Started
+## Getting Started
 
 PSDtoHTML was my project to create a PSD or Photoshop document into a single page application(SPA). git check
 
