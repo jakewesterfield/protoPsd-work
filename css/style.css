@@ -720,58 +720,47 @@ img.snowscape-background {
     z-index: 2;
 }
 
-.snowscape-left-reviewbox-image {
+.snowscape-reviewbox-image {
     width: 90px;
     height: 90px;
+    margin-top: -610px;
+    position: absolute;
+    z-index: 3;
+}
+
+.snowscape-reviewbox-image.left {
     margin-left: 21.5%;
-    margin-top: -610px;
-    position: absolute;
-    z-index: 3;
 }
 
-.snowscape-middle-reviewbox-image {
-    width: 90px;
-    height: 90px;
+.snowscape-reviewbox-image.middle {
     margin-left: 46%;
-    margin-top: -610px;
-    position: absolute;
-    z-index: 3;
 }
 
-.snowscape-right-reviewbox-image {
-    width: 90px;
-    height: 90px;
+.snowscape-reviewbox-image.right {
     margin-left: 71%;
-    margin-top: -610px;
+}
+
+.snowscape-reviewbox-review-stars {
+    width: 120px;
+    height: 25px;
+    margin-top: -480px;
     position: absolute;
     z-index: 3;
 }
 
-.snowscape-left-reviewbox-review-stars {
-    width: 95px;
-    height: 17px;
-    margin-left: 21%;
-    margin-top: -470px;
-    position: absolute;
-    z-index: 3;
+.snowscape-reviewbox-review-stars.left {
+    margin-left: 22%;
+    color: #FFAF13;
 }
 
-.snowscape-middle-reviewbox-review-stars {
-    width: 95px;
-    height: 17px;
-    margin-left: 46%;
-    margin-top: -470px;
-    position: absolute;
-    z-index: 3;
+.snowscape-reviewbox-review-stars.middle {
+    margin-left: 47%;
+    color: #ffffff;
 }
 
-.snowscape-right-reviewbox-review-stars {
-    width: 95px;
-    height: 17px;
-    margin-left: 70.5%;
-    margin-top: -470px;
-    position: absolute;
-    z-index: 3;
+.snowscape-reviewbox-review-stars.right {
+    margin-left: 72%;
+    color: #FFAF13;
 }
 
 .snowscape-left-reviewbox-review-text {
@@ -1082,29 +1071,6 @@ img.snowscape-background {
     margin-top: 195px;
 }
 
-/* .email-input-box {
-    height: 36px;
-    width: 200px;
-    margin-top: 1px;
-    position: absolute;
-    z-index: 1;
-} */
-
-
-/* new input box for email */
-/* .email-input-box {
-    height: 36px;
-    width: 200px;
-    margin-top: 1px;
-    position: absolute;
-    z-index: 1;
-} 
-
-input[type='email']:focus, input[placeholder=''] {
-    text-align: left;
-}
-*/
-
 .email-input-box:hover {
     height: 36px;
     width: 200px;
@@ -1323,9 +1289,5 @@ input[type='email']:focus, input[placeholder=''] {
     letter-spacing: 2px;
 }
 
-
-
-
-
-
-
+/* Currently at 1297 liones of code 3/19/18 3:14pm, will refactor more*/
+/* Delete this line of code if seen after 3/23/18*/
