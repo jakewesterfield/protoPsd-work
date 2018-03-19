@@ -7,12 +7,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="css/fonts.css" />
-        <link rel="stylesheet" href="css/bootstrap.min.css"/>
         <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400" rel="stylesheet">
     </head>
     <body>
         <div class="header-section">
+        
                 <div>
                     <!-- Navigation bar -->
                     <nav class="social-nav-bar">
@@ -44,7 +44,8 @@
                         </ul>
                         
                     </nav>
-                
+
+                    
                 </div>
                 <!-- kissing picture-->
                 <img src="images/prototype_0007s_0005_Layer-15.png" alt="default-header-image-kissing-couple">   
@@ -153,16 +154,18 @@
             <img class="snowscape-left-reviewbox" src="images/prototype_0005s_0001s_0000s_0004_Rectangle-4-copy-6.png" alt="" />
             <p class="snowscape-middle-reviewbox" /></p>
             <img class="snowscape-right-reviewbox" src="images/prototype_0005s_0001s_0000s_0004_Rectangle-4-copy-6.png" alt="" />
-            <!-- reviewers image icon -->
-            <img class="snowscape-reviewbox-image left" src="images/prototype_0005s_0001s_0002s_0001_Layer-40.png" alt="" />
-            <img class="snowscape-reviewbox-image middle" src="images/prototype_0005s_0001s_0001s_0001_Layer-42.png" alt="" />
-            <img class="snowscape-reviewbox-image right" src="images/prototype_0005s_0001s_0000s_0001_Layer-43.png" alt="" />
+            <img class="snowscape-left-reviewbox-image" src="images/prototype_0005s_0001s_0002s_0001_Layer-40.png" alt="" />
+            <img class="snowscape-middle-reviewbox-image" src="images/prototype_0005s_0001s_0001s_0001_Layer-42.png" alt="" />
+            <img class="snowscape-right-reviewbox-image" src="images/prototype_0005s_0001s_0000s_0001_Layer-43.png" alt="" />
             
             <!-- review stars -->
-            <p class="snowscape-reviewbox-review-stars left">&star;&star;&star;&star;&star;</p>
-            <p class="snowscape-reviewbox-review-stars middle">&star;&star;&star;&star;&star;</p>
-            <p class="snowscape-reviewbox-review-stars right">&star;&star;&star;&star;&star;</p>
-
+            <!-- <p class="snowscape-left-reviewbox-review-stars">&star;&star;&star;&star;&star;</p> -->
+            <!-- <p class="snowscape-middle-reviewbox-review-stars">&star;&star;&star;&star;&star;</p> -->
+            <!-- <p class="snowscape-right-reviewbox-review-stars">&star;&star;&star;&star;&star;</p> -->
+            <img class="snowscape-left-reviewbox-review-stars" src="images/prototype_0005s_0001s_0000s_0000_review-stars-left-and-right.png" alt="" />
+            <img class="snowscape-middle-reviewbox-review-stars" src="images/prototype_0005s_0001s_0001s_0000_review-stars-middle.png" alt="" />
+            <img class="snowscape-right-reviewbox-review-stars" src="images/prototype_0005s_0001s_0000s_0000_review-stars-left-and-right.png" alt="" />
+            
             <!-- review text -->
             <!-- <p>"Thank's so much for the awesome 
                 <br> customer service. So many companies,
@@ -175,7 +178,6 @@
                 <img  src="images/prototype_0005s_0001s_0001s_0003_“-A-great-agency-who-are-not-only-flexible,-efficient-and-profe.png" alt="" />
             </a> 
             <img class="snowscape-right-reviewbox-review-text" src="images/prototype_0005s_0001s_0000s_0003_“-The-quality-of-product-and-more-importantly,-customer-service.png" alt="" />
-
         <footer>
             <div class="footer-background">
                 <!-- footer background, set to relative-->
@@ -201,8 +203,8 @@
                 </div>
 
                 <!-- About us column w/in footer section -->
+
                 <div class="footer-content-container">
-                    <!-- left footer section -->
                     <p class="footer-aboutus">About Us</p>
                     <!-- footer contain, is contained inside footer div, set to absolute. -->
                     <img class="footer-image-studygirl" src="images/prototype_0006s_0006s_0001_274604_l_srgb_s_gl.png" alt="footer_studygirl_image" />
@@ -216,6 +218,8 @@
                 </div>
 
                 <div class="footer-icon-container">
+                    <!-- <img src="images/social-media.png" class="footer-social-media-icons" alt="footer_social_media_icons_image" /> -->
+                    <!-- future social media icons vertically aligned below. 3/14/18 --> 
                     <img src="images/social_icon_facebook.png" id="footer-social-media-facebook-icon" class="social-media-icon" alt="footer_social_media_icon_facebook" />
                     <img src="images/social_icon_instagram.png" id="footer-social-media-instagram-icon" class="social-media-icon" alt="footer_social_media_icon_instagram" />
                     <img src="images/social_icon_linkedin.png" id="footer-social-media-linkedin-icon" class="social-media-icon" alt="footer_social_media_icon_linkedin" />
@@ -233,13 +237,13 @@
                 </div>
                 
                 <div class="email-text-box-container">
-                    <!-- <img class="email-input-box" src="images/prototype_0006s_0005s_0004_Rectangle-27.png" alt="email_textbox_outline_image" />
-                    <p class="email-input-box-text">Enter Your Email</p> -->
+                    <img class="email-input-box" src="images/prototype_0006s_0005s_0004_Rectangle-27.png" alt="email_textbox_outline_image" />
+                    <p class="email-input-box-text">Enter Your Email</p>
                     
                     <!-- replace image icon with an actual input tag, with a background set to the footer color and placeholder text set to align to the left in css as input[type='text']:focus {text-align-left;} -->
-                    <form action="javascript:void(0);">
-                        <input class="email-input-box2" type="email" placeholder="Enter Your Email" >
-                    </form>
+                    <!-- <form action="javascript:void(0);">
+                        <input class="email-input-box" type="email" value="Submit" placeholder="Enter Your Email" >
+                    </form> -->
                 </div>
                 
                 <div class="subscribe-button-container">
