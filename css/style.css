@@ -62,7 +62,6 @@ footer {
     }
   }
 
-
 .nav-bar {
     text-transform: uppercase;
     background-color: transparent;
@@ -1011,6 +1010,7 @@ img.snowscape-background {
 }
 
 .lorem-text-paragraph {
+    width: 310px;
     font-size: 10px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -1084,10 +1084,14 @@ img.snowscape-background {
 
 .email-input-box {
     height: 36px;
-    width: 200px;
+    width: 180px;
     margin-top: 1px;
     position: absolute;
     z-index: 1;
+    background: #212121;
+    color: #808080;
+    border: 1px solid #808080;
+    padding-left: 10px;
 }
 
 /* new input box for email */
@@ -1313,10 +1317,3 @@ input[type='email']:focus, input[placeholder=''] {
     font-size: 11.5px;
     letter-spacing: 2px;
 }
-
-
-
-
-
-
-
